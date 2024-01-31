@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+
+    <title>Biscoito da sorte</title>
+</head>
+<body>
+    <main>
+        <div class="screen1">
+            <h1>Qual é a sua sorte de hoje?</h1>
+
+            <h2>Abra o biscoito e descubra!</h2>
+
+            <button onclick="handleClick()"><img src="./images/cookie.svg" alt="imagem do biscoito da sorte"></button>
+        </div>
+
+        <div class="screen2 hide">
+            <h1>Aqui está a sua sorte de hoje:</h1>
+
+            <img style="--delay: 1s" src="./images/message.png" alt="Bilhete diz: Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.">
+
+            <img src="./images/cookie2.svg" alt="imagem do biscoito da sorte">
+
+            <button onclick="btnClick()" id="btnCookie">Abrir outro biscoito</button>
+        </div>
+    </main>
+    
+</body>
+</html>
